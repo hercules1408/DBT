@@ -42,3 +42,7 @@ models:
       +materialized: view
     marts:
       +materialized: table
+    dim:
+      +materialized: table
+    src:
+      +materialized: ephemeral
